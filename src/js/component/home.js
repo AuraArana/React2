@@ -11,7 +11,7 @@ function Home() {
 	return (
 		<div className="text-center mt-5">
 			<div className="card bg-dark" style={{ width: " 18rem" }}>
-				<h5 className="card-title">Card title</h5>
+				<h5 className="card-title">Aura Arana</h5>
 				<h1 style={{ color: "white" }}>{time}</h1>
 			</div>
 		</div>
