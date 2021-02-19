@@ -8,11 +8,39 @@ function Home() {
 			setTime(time => time + 1);
 		}, 1000);
 	}, []);
+
+	if (time === 10) {
+		setTime(0);
+		setTime2(time2 + 1);
+	}
 	return (
 		<div className="text-center mt-5">
-			<div className="card bg-dark" style={{ width: " 18rem" }}>
-				<h5 className="card-title">Aura Arana</h5>
-				<h1 style={{ color: "white" }}>{time}</h1>
+			<div className="row">
+				<div className="col-1 card bg-dark" style={{ width: " 18rem" }}>
+					<h5 className="card-title"></h5>
+					<h1 style={{ color: "white" }}>{time}</h1>
+				</div>
+				<div className="col-1 card bg-dark" style={{ width: " 18rem" }}>
+					<h5 className="card-title"></h5>
+					<h1 style={{ color: "white" }}>{time}</h1>
+				</div>
+                <div className="col-1 card bg-dark" style={{ width: " 18rem" }}>
+					<h5 className="card-title"></h5>
+					<h1 style={{ color: "white" }}>{time}</h1>
+				</div>
+                <div className="col-1 card bg-dark" style={{ width: " 18rem" }}>
+					<h5 className="card-title"></h5>
+					<h1 style={{ color: "white" }}>{time}</h1>
+				</div>
+                <div className="col-1 card bg-dark" style={{ width: " 18rem" }}>
+					<h5 className="card-title"></h5>
+					<h1 style={{ color: "white" }}>{time}</h1>
+				</div>
+                <div className="col-1 card bg-dark" style={{ width: " 18rem" }}>
+					<h5 className="card-title"></h5>
+					<h1 style={{ color: "white" }}>{time}</h1>
+				</div>
+                
 			</div>
 		</div>
 	);
